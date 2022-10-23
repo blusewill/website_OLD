@@ -1,0 +1,117 @@
+baseURL: "https://blusewill.ml"
+title: blusewill's Offical Website
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: blusewill's Website
+  description: "Just blusewill's Offical Website"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: [img/pfp.png]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "blusewill"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "blusewill"
+    subtitle: "Bad 3D Modeler | Linux User | Streamer | Ninjago Soundtrack Editor | YouTuber "
+    imageUrl: "img/pfp.png"
+    imageWidth: 128
+    imageHeight: 128
+    imageTitle: Profile Picture
+    buttons:
+      - name: Youtube
+        url: https://youtube.com/c/小品大大blusewill
+      - name: Twitch
+        url: https://twitch.tv/blusewill
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome"
+    Content: To blusewill's Offical Website (Blog)
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/bluesewill"
+    - name: github
+      url: "https://github.com/blusewill"
+
+ 
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: Twitch Link
+      name: Twitch
+      url: https://twitch.tv/blusewill
+      weight: 10
+    - identifier: tags
+      name: Single Donation
+      url: https://streamelements.com/blusewill/tip
+      weight: 20
+    - identifier: Youtube
+      name: Youtube
+      url: https://youtube.com/小品大大blusewill
+      weight: 30
+    - identifier: Gumroad
+      name: Shop
+      url: https://blusewill.gumroad.com/
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
