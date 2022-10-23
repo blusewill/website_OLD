@@ -5,8 +5,8 @@
     <link>https://blusewill.ml/categories/</link>
     <description>Recent content in Categories on blusewill&#39;s Offical Website</description>
     <image>
-      <url>https://blusewill.ml/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blusewill.ml/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blusewill.ml/img/pfp.png</url>
+      <link>https://blusewill.ml/img/pfp.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://blusewill.ml/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

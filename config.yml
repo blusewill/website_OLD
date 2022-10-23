@@ -73,9 +73,9 @@ params:
 
  
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -89,20 +89,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Twitch Link
-      name: Twitch
-      url: https://twitch.tv/blusewill
+    - identifier: Posts
+      name: Posts
+      url: posts
       weight: 10
     - identifier: tags
       name: Single Donation
       url: https://streamelements.com/blusewill/tip
       weight: 20
-    - identifier: Youtube
-      name: Youtube
-      url: https://youtube.com/小品大大blusewill
       weight: 30
     - identifier: Gumroad
-      name: Shop
+      name: Store
       url: https://blusewill.gumroad.com/
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

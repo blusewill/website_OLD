@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blusewill&#39;s Offical Website</title>
-    <link>https://blusewill.ml/</link>
-    <description>Recent content on blusewill&#39;s Offical Website</description>
+    <title>Posts on blusewill&#39;s Offical Website</title>
+    <link>https://blusewill.ml/posts/</link>
+    <description>Recent content in Posts on blusewill&#39;s Offical Website</description>
     <image>
       <url>https://blusewill.ml/img/pfp.png</url>
       <link>https://blusewill.ml/img/pfp.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Oct 2022 01:28:34 +0800</lastBuildDate><atom:link href="https://blusewill.ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 01:28:34 +0800</lastBuildDate><atom:link href="https://blusewill.ml/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://blusewill.ml/posts/first/</link>
