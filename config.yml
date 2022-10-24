@@ -101,6 +101,9 @@ menu:
     - identifier: Gumroad
       name: Store
       url: https://blusewill.gumroad.com/
+    - identifier: Source
+      name: View Website Source Code
+      url: https:/github.com/blusewill/website
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
