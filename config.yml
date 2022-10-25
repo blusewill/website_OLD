@@ -41,6 +41,11 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  
+   assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "img/pfp.png"
 
   label:
     text: "blusewill"
