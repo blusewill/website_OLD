@@ -1,4 +1,4 @@
 ---
-title: "Search (Out of Services)"
+title: "Search"
 layout: "search"
 ---
