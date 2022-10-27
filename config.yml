@@ -73,6 +73,11 @@ languages:
                 - name: 網站原始碼
                   url: "https://github.com/blusewill/website"
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
