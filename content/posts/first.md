@@ -3,7 +3,7 @@ title: "First Post"
 date: 2022-10-24T01:28:34+08:00
 draft: false
 # aliases: ["/first"]
-tags: ["/Hugo/Markdown"]
+tags: ["Hugo", "Markdown"]
 author: "blusewill"
 # author: ["Me", "You"] # multiple authors
 showToc: false

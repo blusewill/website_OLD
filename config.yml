@@ -14,6 +14,66 @@ minify:
   disableXML: true
   minifyOutput: true
 
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Posts
+                  url: posts
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Single Donation
+                  url: https://streamelements.com/blusewill/tip
+                  weight: 10
+                - name: Store
+                  url: https://blusewill.gumroad.com
+                - name: Website Source Code
+                  url: https://github.com/blusewill/website
+
+    zh-tw:
+        languageName: "Chinese Traditional"
+        languageAltTitle: Chinese Traditional
+        weight: 2
+        title: 小品大大
+        profileMode:
+            enabled: true
+            title: 小品大大
+            imageUrl: "img/pfp.png"
+            imageWidth: 128
+            imageHeight: 128
+            imageTitle: ProfileMode image
+            subtitle: "不會3D建模的3D建模師 | Linux 使用者 | 直播主 | 旋風忍者配樂剪輯員 | YouTuber "
+            buttons:
+                - name: Youtube
+                  url: https://youtube.com/小品大大blusewill
+                - name: 圖奇 (Twitch)
+                  url: https://twitch.tv/blusewill
+        menu:
+            main:
+                - name: 貼文
+                  url: posts
+                  weight: 5
+                - name: 搜尋
+                  url: searchtw
+                  weight: 10
+                - name: 斗內
+                  url: https://streamelements.com/blusewill/tip
+                  weight: 10
+                - name: 商店
+                  url: https://blusewill.gumroad.com
+                  weight: 10
+                - name: 網站原始碼
+                  url: "https://github.com/blusewill/website"
+
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: blusewill's Website
@@ -42,6 +102,15 @@ params:
   showtoc: false
   tocopen: false
   
+
+  assets:
+  # disableHLJS: true # to disable highlight.js
+  # disableFingerprinting: true
+  favicon: "favicon.ico"
+  favicon16x16: "favicon16.png"
+  favicon32x32: "favicon32.png"
+
+
   label:
     text: "blusewill"
 
@@ -87,6 +156,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+  
 menu:
   main:
     - identifier: Posts
